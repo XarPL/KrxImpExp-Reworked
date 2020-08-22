@@ -18,6 +18,7 @@
 
 !ifndef TYPEVER
   !define TYPEVER gmax
+  !define BLENDERSHORTVER 0.0
 !endif
 
 !if ${TYPEVER} == max5
@@ -643,19 +644,16 @@ Section "Import and Export Plugins"
   SectionIn "RO"
   call DeleteAnyVersion
   !if ${TYPEVER} == blender
-  	Goto blender
+  	SetOutPath "$INSTDIR\${BLENDERSHORTVER}"
+	File /r "..\..\install\${TYPEVER}\${BLENDERSHORTVER}\*.*"
+  !else
+	SetOutPath $INSTDIR
+	File /r "..\..\install\${TYPEVER}\*.*"
   !endif
-  SetOutPath $INSTDIR
-  File /r "..\..\install\${TYPEVER}\*.*"
-  Goto continue
-  blender:
-	SetOutPath "$INSTDIR\${BLENDERSHORTVER}"
-        File /r "..\..\install\${TYPEVER}\${BLENDERSHORTVER}\*.*"
-  continue:
   IfFileExists "$INSTDIR\stdplugs\IPhysique.gup" renamIPhyGup afterRenamIPhyGup
-renamIPhyGup:
+	renamIPhyGup:
   Rename "$INSTDIR\stdplugs\IPhysique.gup" "$INSTDIR\stdplugs\IPhysique.gup.disabled"
-afterRenamIPhyGup:
+  afterRenamIPhyGup:
   
   WriteRegStr HKLM "SOFTWARE\Kerrax\${CAPTION}" "Path" "$INSTDIR"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${CAPTION}" "DisplayName" "${CAPTION}"
