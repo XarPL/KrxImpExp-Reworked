@@ -1,3 +1,0 @@
-To start Blender with console window, use the "-con" command line switch.
-For example,
-"C:\Program Files\Blender Foundation\Blender\blender.exe" -con
