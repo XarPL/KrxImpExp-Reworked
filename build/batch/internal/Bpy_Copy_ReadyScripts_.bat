@@ -4,6 +4,8 @@ goto :NewScripts
 
 :NewScripts
 @xcopy "%KRXIMPEXP%\src\BlenderScripts\*.py"       "%KRXIMPEXP_INSTALL%\blender\%1\scripts\addons\KrxImpExp\" %XCPYOPT%
+goto :EOF
 
 :OldScripts
 @xcopy "%KRXIMPEXP%\src\BlenderScriptsOld\*.py"       "%KRXIMPEXP_INSTALL%\blender\%1\scripts\addons\KrxImpExp\" %XCPYOPT%
+goto :EOF
