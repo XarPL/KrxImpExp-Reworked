@@ -1,0 +1,12 @@
+Folders "src\MetaMaxScript" and "src\MetaGMaxScript" contain header files 
+which implement project functionality in the MAXScript language. 
+These files not intended to be compiled with C++ compiler,
+instead of this they must be processed with WAVE and SED. 
+WAVE will replace all C++ macroses with their values and 
+SED will make some additional processing.
+
+Special cases:
+HASH - this word used in the code and means a single character #
+It's used because writing the '#' character directly in the code will confuse WAVE
+because WAVE treats '#' as a start of preprocessor directive. 
+SED is used to replace the "HASH" word with the '#' character.

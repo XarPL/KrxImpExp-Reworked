@@ -1,0 +1,105 @@
+How to build the plugins for 3ds max.
+-------------------------------------
+
+1) Go to the "build\" folder and correct pathes to installed software in file "config1_pathes.reg".
+Read the "dependencies.txt" if you have trouble with some software.
+
+2) Go to the "build\vc2008express\" folder and compile "wxImpExpUI.sln" with Microsoft Visual C++ (MSVC).
+Ensure that you have installed and compiled wxWidgets with "UNICODE Debug" configuration before it.
+
+3) Go to the "build\vc2008express\" folder and compile Max3dsImporter.sln, Max3dsExporter.sln, MaxAscImporter.sln, MaxAscExporter.sln with MSVC.
+Ensure that you have installed 3ds max sdk (there are four different versions of 3ds max sdk: for 3ds max 5, for 3ds max 6-8, for 3ds max 9-2008, for 3ds max 2009).
+
+A configuration's name specifies 3ds max version, for example:
+"Debug5" is a debug configuration for 3ds max 5,
+"Release6" is a release configuration for 3ds max 6,
+"Release7" is a release configuration for 3ds max 7-8,
+"Debug9" is a debug configuration for 3ds max 9-2008, 32-bit,
+"Release11" is a release configuration for 3ds max 2009, 32-bit,
+"Release11_x64" is a release configuration for 3ds max 2009, 64-bit,
+and so on.
+
+4) Go to the "build\vc2008express\" folder and compile "IPhysique.sln" with MSVC.
+Ensure that you have installed 3ds max sdk (there are four different versions of 3ds max sdk: for 3ds max 5, for 3ds max 6-8, for 3ds max 9-2008, for 3ds max 2009).
+
+5) Go to the "build\batch\" folder and run files "Make_MaxScriptBased_3dsImp.bat", "Make_MaxScriptBased_3dsExp.bat", "Make_MaxScriptBased_AscImp.bat", "Make_MaxScriptBased_AscExp.bat"
+
+6) Go to the "build\batch\" folder and run files "Copy_MaxImpExpUtil.bat"
+
+7) Go to the "locale\" folder and run file "Copy_Locale.bat"
+
+8) Go to the "help\" folder and run file "Copy_Help.bat"
+
+9) Go to the "sample_meshes\" folder and run file "Copy_SampleMeshes.bat"
+
+
+
+How to build the plugins for gmax.
+----------------------------------
+
+1) Go to the "build\" folder and correct pathes to installed software in file "config1_pathes.reg".
+Read the "dependencies.txt" if you have trouble with some software.
+
+2) Go to the "build\vc2008express\" folder and compile "wxImpExpUI.sln" with Microsoft Visual C++ (MSVC).
+Ensure that you have installed and compiled wxWidgets with "UNICODE Debug" configuration before it.
+
+3) Go to the "build\vc2008express\" folder and compile "GMaxExtender.sln" with Microsoft Visual C++ (MSVC).
+
+4) Go to the "build\batch\" folder and run file "Copy_GMaxExtenderScript.bat"
+
+5) Go to the "build\batch\" folder and run files "Make_GMaxScriptBased_3dsImp.bat", "Make_GMaxScriptBased_3dsExp.bat", "Make_GMaxScriptBased_AscImp.bat", "Make_GMaxScriptBased_AscExp.bat"
+
+6) Go to the "build\batch\" folder and run files "Copy_MaxImpExpUtil.bat"
+
+7) Go to the "locale\" folder and run file "Copy_Locale.bat"
+
+8) Go to the "help\" folder and run file "Copy_Help.bat"
+
+9) Go to the "sample_meshes\" folder and run file "Copy_SampleMeshes.bat"
+
+
+
+How to build the plugins for Blender.
+-------------------------------------
+
+1) Go to the "build\" folder and correct pathes to installed software in file "config1_pathes.reg".
+Read the "dependencies.txt" if you have trouble with some software.
+
+2) Go to the "build\vc2008express\" folder and compile "wxImpExpUI.sln" with Microsoft Visual C++ (MSVC).
+Ensure that you have installed and compiled wxWidgets with "UNICODE Debug" configuration before it.
+
+3) Go to the "build\batch\" folder and run file "Copy_BlenderImageSearchScript.bat"
+
+4) Go to the "build\batch\" folder and run file "Copy_BlenderMtlLongNameScript.bat"
+
+5) Go to the "build\batch\" folder and run files "Make_BpyBased_3dsImp.bat", "Make_BpyBased_3dsExp.bat", "Make_BpyBased_AscImp.bat", "Make_BpyBased_AscExp.bat"
+
+6) Go to the "locale\" folder and run file "Copy_Locale.bat"
+
+7) Go to the "help\" folder and run file "Copy_Help.bat"
+
+8) Go to the "sample_meshes\" folder and run file "Copy_SampleMeshes.bat"
+
+
+
+How to build the plugins for Cinema 4D.
+---------------------------------------
+
+1) Go to the "build\" folder and correct pathes to installed software in file "config1_pathes.reg".
+Read the "dependencies.txt" if you have trouble with some software.
+
+2) Go to the "build\vc2008express\" folder and compile "wxImpExpUI.sln" with Microsoft Visual C++ (MSVC).
+Ensure that you have installed and compiled wxWidgets with "UNICODE Debug" configuration before it.
+
+3) Go to the "build\vc2008express\" folder and compile C4D3dsImporter.sln, C4D3dsExporter.sln, C4DAscImporter.sln, C4DAscExporter.sln with MSVC.
+
+A configuration's name specifies cinema 4d's SDK version, for example:
+"Debug11" is a debug configuration for Cinema 4D Release 11,
+"Release96" is a release configuration for Cinema 4D Release 9.6,
+and so on.
+
+4) Go to the "locale\" folder and run file "Copy_Locale.bat"
+
+5) Go to the "help\" folder and run file "Copy_Help.bat"
+
+6) Go to the "sample_meshes\" folder and run file "Copy_SampleMeshes.bat"

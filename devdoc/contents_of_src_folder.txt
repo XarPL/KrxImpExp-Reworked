@@ -1,0 +1,39 @@
+gfx                - icons and bitmaps
+
+GMaxExtender        
+GMaxExtenderDLL    - an extension for gmax to enable write-to-file operations
+GMaxExtenderScript
+
+IPhysique          - a plugin for 3ds max (all versions) to enable operation
+                     with Physique modifier from MAXScript;
+					 this plugin written by Adam Felt and updated by Neil Hazzard
+ 
+MaxImpExpUtil      - single MAXScript file providing panel in the "Utility" tab
+                     which can be used for running import/export scripts
+                     in other files
+
+Meta               - common source files for importers and exporters for any 3D Editors;
+                     these files is written in a special language, named "Meta";
+					 folders "MetaCpp", MetaMaxSdk", "MetaMaxScript", "MetaGMaxScript"
+					 implement this "Meta" language by defining macroses
+					 
+MetaCpp            - implementation of macroses used by the "Meta" language for 3D Editor's SDK
+                     based on C++ (for example, 3ds max sdk)
+					 
+MetaMaxSdk         - implementation of macroses used by the "Meta" language for 3ds max SDK
+                     (File "MetaMaxSdk.h" includes file "MetaMaxCpp.h")
+
+MetaMaxScript      - implementation of macroses used by the "Meta" language for 3ds max MAXScript
+
+MetaGMaxScript     - implementation of macroses used by the "Meta" language for gmax MAXScript
+
+MetaBpy            - implementation of macroses used by the "Meta" language for Blender Python
+
+tstl               - small library (written by PJ Arends) to use UNICODE strings with STL
+                     (this library used by wxImpExpUI application)
+					 
+wxImpExpUI         - graphical frontend providing user interface for showing information
+                     about the current import/export process, getting additional parameters
+					 from user, and so on.
+
+					 

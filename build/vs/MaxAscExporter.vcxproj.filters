@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Meta Files">
+      <UniqueIdentifier>{cc55e02b-3414-4f45-a379-443817a4e4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaCpp Files">
+      <UniqueIdentifier>{841e290b-f47c-46f2-9e81-4af11adf9830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaMaxSdk Files">
+      <UniqueIdentifier>{9ab67792-4fa3-425b-b5d9-a3db6de506c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\Meta\AscExporterDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\AscExporterDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\AscFileSaver.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\DefaultMaterial.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\File.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ModelHierarchy.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\NameAnalyzer.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ObjArrayUtils.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\RunUIExe.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\SceneAnalyzer.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\MetaCpp\Meta.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Array.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Bit.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Class.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_ControlFlow.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Exception.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_File.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Function.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_MsgBox.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Numeric.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_String.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_System.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_TypeConv.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Var.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\Meta.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Anim.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Color.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Exporter.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Importer.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Material.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Matrix3.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Mesh.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Object.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Point3.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Quat.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Scene.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Skin.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_StdDirs.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Meta\AscExporter.meta">
+      <Filter>Meta Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

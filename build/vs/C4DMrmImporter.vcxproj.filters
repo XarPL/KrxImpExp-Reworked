@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Meta Files">
+      <UniqueIdentifier>{b604fe09-908a-4dbc-abcf-792e7e7862f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaC4DSdk Files">
+      <UniqueIdentifier>{e0c00ecb-3233-404a-a715-1c27bbeed5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaCpp Files">
+      <UniqueIdentifier>{d4d7e9ab-0323-40ec-8da6-c49df6e811f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\Meta\ErrorBox.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\File.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\FormatMsg.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ImpExpPathes.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MeshImporterDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MeshImporterDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MeshInfoDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MeshInfoDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MessageDlg.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MessageDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MessageDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MrmFileLoader.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ObjectStats.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\RunUIExe.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\SpaceTransform.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ThrowMsg.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\MetaC4DSdk\Meta.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Color.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Importer.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Material.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Matrix3.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Mesh.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Object.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Point3.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Progress.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Quat.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Scene.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_StdDirs.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaC4DSdk\MetaC4DSdk_Unit.h">
+      <Filter>MetaC4DSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Array.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Bit.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Class.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_ControlFlow.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_ErrBox.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Exception.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_File.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Function.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_NumConv.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Numeric.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_String.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_System.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Var.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Meta\MrmImporter.meta">
+      <Filter>Meta Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

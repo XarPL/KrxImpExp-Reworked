@@ -1,0 +1,4 @@
+This folder contains project files to build Cinema 4D SDK.
+Copy _api_*.sln and _api_*.vcproj to <Cinema 4D's folder>\resource\_api_lib
+and build the solution. I've written my project files for Cinema 4D SDK 
+because standard project files from Cinema 4D's distributive were unsuitable for me.

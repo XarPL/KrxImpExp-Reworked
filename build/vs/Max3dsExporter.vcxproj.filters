@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Meta Files">
+      <UniqueIdentifier>{f794ff42-5db7-4519-bee0-9b1689e266d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaCpp Files">
+      <UniqueIdentifier>{b2822773-bc6e-4680-a109-ec9c0ffdcd98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaMaxSdk Files">
+      <UniqueIdentifier>{9873222a-66f5-4ecf-a315-a73da30dfbd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\Meta\3dsExporterDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\3dsExporterDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\3dsFileSaver.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\3dsWriteChunk.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\CheckUnitsSetup.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\File.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ImpExpPathes.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\NameAnalyzer.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ObjectStats.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\RunUIExe.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\SceneAnalyzer.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Array.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Bit.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Class.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_ControlFlow.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Exception.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_File.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Function.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_MsgBox.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Numeric.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_String.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_System.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_TypeConv.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Var.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\Meta.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Color.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Exporter.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Importer.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Material.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Matrix3.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Mesh.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Object.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Point3.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_Scene.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaMaxSdk\MetaMaxSdk_StdDirs.h">
+      <Filter>MetaMaxSdk Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Meta\3dsExporter.meta">
+      <Filter>Meta Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MetaCpp Files">
+      <UniqueIdentifier>{1f862e1b-60ae-43f5-907a-050a2b7a9a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meta Files">
+      <UniqueIdentifier>{f3651203-3c88-47b7-a2bd-5f58f3eb58e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\wxImpExpUI\3DSExporterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\3DSImporterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\ASCExporterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\ASCImporterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\CheckNotebook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\CheckTreeCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\FB_ImpExpUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\ImpExpHelpMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\ImpExpUIApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\ImpExpUITools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\MatRenParamsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\MatRenTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\MeshImporterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\MeshInfoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\OptionsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\SpaceTransformExpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\SpaceTransformImpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\SpaceTransformTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\StdHeaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\TimeTransformExpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\TimeTransformImpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\wxImpExpUI\ImpExpUIApp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\wxImpExpUI\3DSExporterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\3DSImporterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\ASCExporterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\ASCImporterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\CheckNotebook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\CheckTreeCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\FB_ImpExpUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\ImpExpHelpMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\ImpExpUIApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\ImpExpUITools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\MatRenParamsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\MatRenTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\MeshImporterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\MeshInfoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\OptionsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\SpaceTransformExpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\SpaceTransformImpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\SpaceTransformTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\StdHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\TimeTransformExpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\wxImpExpUI\TimeTransformImpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\Meta.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Array.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Bit.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Class.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_ControlFlow.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Exception.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_File.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Function.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_MsgBox.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Numeric.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_String.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_System.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Var.h">
+      <Filter>MetaCpp Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\Meta\3dsExporterDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\3dsExporterDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\3dsImporterDefs.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\3dsImporterDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\3dsImporterDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\AscExporterDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\AscExporterDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\AscImporterDefs.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\AscImporterDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\AscImporterDlgOutput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\File.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\FormatMsg.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\MeshInfoDlgInput.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ModelHierarchy.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+    <None Include="..\..\src\Meta\ObjectStats.meta">
+      <Filter>Meta Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

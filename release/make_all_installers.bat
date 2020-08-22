@@ -1,0 +1,3 @@
+call make_installer_for_blender.bat
+call make_installers_for_3dsmax_and_gmax.bat
+call make_installers_for_cinema4d.bat

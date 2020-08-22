@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPhysique", "IPhysique.vcxproj", "{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug11_x64|Win32 = Debug11_x64|Win32
+		Debug11|Win32 = Debug11|Win32
+		Debug12_x64|Win32 = Debug12_x64|Win32
+		Debug12|Win32 = Debug12|Win32
+		Debug5|Win32 = Debug5|Win32
+		Debug6|Win32 = Debug6|Win32
+		Debug9_x64|Win32 = Debug9_x64|Win32
+		Debug9|Win32 = Debug9|Win32
+		Release11_x64|Win32 = Release11_x64|Win32
+		Release11|Win32 = Release11|Win32
+		Release12_x64|Win32 = Release12_x64|Win32
+		Release12|Win32 = Release12|Win32
+		Release5|Win32 = Release5|Win32
+		Release6|Win32 = Release6|Win32
+		Release9_x64|Win32 = Release9_x64|Win32
+		Release9|Win32 = Release9|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug11_x64|Win32.ActiveCfg = Debug11_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug11_x64|Win32.Build.0 = Debug11_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug11|Win32.ActiveCfg = Debug11|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug11|Win32.Build.0 = Debug11|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug12_x64|Win32.ActiveCfg = Debug12_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug12_x64|Win32.Build.0 = Debug12_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug12|Win32.ActiveCfg = Debug12|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug12|Win32.Build.0 = Debug12|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug5|Win32.ActiveCfg = Debug5|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug5|Win32.Build.0 = Debug5|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug6|Win32.ActiveCfg = Debug6|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug6|Win32.Build.0 = Debug6|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug9_x64|Win32.ActiveCfg = Debug9_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug9_x64|Win32.Build.0 = Debug9_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug9|Win32.ActiveCfg = Debug9|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Debug9|Win32.Build.0 = Debug9|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release11_x64|Win32.ActiveCfg = Release11_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release11_x64|Win32.Build.0 = Release11_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release11|Win32.ActiveCfg = Release11|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release11|Win32.Build.0 = Release11|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release12_x64|Win32.ActiveCfg = Release12_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release12_x64|Win32.Build.0 = Release12_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release12|Win32.ActiveCfg = Release12|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release12|Win32.Build.0 = Release12|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release5|Win32.ActiveCfg = Release5|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release5|Win32.Build.0 = Release5|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release6|Win32.ActiveCfg = Release6|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release6|Win32.Build.0 = Release6|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release9_x64|Win32.ActiveCfg = Release9_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release9_x64|Win32.Build.0 = Release9_x64|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release9|Win32.ActiveCfg = Release9|Win32
+		{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}.Release9|Win32.Build.0 = Release9|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {053A45ED-51E4-421C-BDC0-F1761D0DA040}
+	EndGlobalSection
+EndGlobal

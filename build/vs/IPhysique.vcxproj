@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug11_x64|Win32">
+      <Configuration>Debug11_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug11|Win32">
+      <Configuration>Debug11</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug12_x64|Win32">
+      <Configuration>Debug12_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug12|Win32">
+      <Configuration>Debug12</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug14_x64|Win32">
+      <Configuration>Debug14_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug14|Win32">
+      <Configuration>Debug14</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug15_x64|Win32">
+      <Configuration>Debug15_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug15|Win32">
+      <Configuration>Debug15</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug5|Win32">
+      <Configuration>Debug5</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug6|Win32">
+      <Configuration>Debug6</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug9_x64|Win32">
+      <Configuration>Debug9_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug9|Win32">
+      <Configuration>Debug9</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release11_x64|Win32">
+      <Configuration>Release11_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release11|Win32">
+      <Configuration>Release11</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release12_x64|Win32">
+      <Configuration>Release12_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release12|Win32">
+      <Configuration>Release12</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release14_x64|Win32">
+      <Configuration>Release14_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release14|Win32">
+      <Configuration>Release14</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release15_x64|Win32">
+      <Configuration>Release15_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release15|Win32">
+      <Configuration>Release15</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release5|Win32">
+      <Configuration>Release5</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release6|Win32">
+      <Configuration>Release6</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release9_x64|Win32">
+      <Configuration>Release9_x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release9|Win32">
+      <Configuration>Release9</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0B3C50AB-381F-4ED4-ADCC-3FE2597471CC}</ProjectGuid>
+    <RootNamespace>IPhysique</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release15|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug15|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug14|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release14|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release11|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug11|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release9|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug9|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release6|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug6|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release5|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug5|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release15|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug15|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug14|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release14|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release11|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug11|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release9|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug9|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release6|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug6|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release5|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug5|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30323.82</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug5|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release5|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug6|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release6|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug9|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release9|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug11|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release11|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release14|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug14|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug15|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release15|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug5|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_5)\include;$(CSSDK_5);.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_5)\lib;$(CSSDK_5)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release5|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_5)\include;$(CSSDK_5);.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_5)\lib;$(CSSDK_5)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug6|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_6)\include;$(CSSDK_6)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_6)\lib;$(CSSDK_6)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release6|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_6)\include;$(CSSDK_6)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_6)\lib;$(CSSDK_6)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug9|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_9)\include;$(MAXSDK_9)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_9)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release9|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_9)\include;$(MAXSDK_9)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_9)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug11|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;$(MAXSDK_11)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_11)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release11|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;$(MAXSDK_11)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_11)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_11)\x64\lib;$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_11)\x64\lib;$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_9)\x64\lib;$(CSSDK_9_X64_LIB);$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_9)\x64\lib;$(CSSDK_9_X64_LIB);$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug12|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_12)\include;$(MAXSDK_12)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_12)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release12|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_12)\include;$(MAXSDK_12)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_12)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_12)\x64\lib;$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;helpsys.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_12)\x64\lib;$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_14)\x64\lib;$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release14|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_14)\include;$(MAXSDK_14)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_14)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_14)\x64\lib;$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug14|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_14)\include;$(MAXSDK_14)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_14)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug15|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_15)\include;$(MAXSDK_15)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_15)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release15|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_15)\include;$(MAXSDK_15)\include\cs;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_15)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_15)\x64\lib;$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MAXSDK_11)\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IPHYSIQUE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;core.lib;geom.lib;mesh.lib;poly.lib;maxutil.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)IPhysique.gup</OutputFile>
+      <AdditionalLibraryDirectories>$(MAXSDK_15)\x64\lib;$(VCInstallDir)lib\amd64;$(WindowsSdkDir)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>$(KRXIMPEXP)\src\IPhysique\PhyExport.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_Max_IPhysique $(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\IPhysique\DllEntry.cpp">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_11)\include" /I"$(MAXSDK_11)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_12)\include" /I"$(MAXSDK_12)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_14)\include" /I"$(MAXSDK_14)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_15)\include" /I"$(MAXSDK_15)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_9)\include" /I"$(MAXSDK_9)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_11)\include" /I "$(MAXSDK_11)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_12)\include" /I "$(MAXSDK_12)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_14)\include" /I "$(MAXSDK_14)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_15)\include" /I "$(MAXSDK_15)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_UNICODE" /D "UNICODE" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_9)\include" /I "$(MAXSDK_9)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\IPhysique\PhyExport.cpp">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_11)\include" /I"$(MAXSDK_11)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_12)\include" /I"$(MAXSDK_12)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_14)\include" /I"$(MAXSDK_14)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_15)\include" /I"$(MAXSDK_15)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_9)\include" /I"$(MAXSDK_9)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_11)\include" /I "$(MAXSDK_11)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_12)\include" /I "$(MAXSDK_12)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_14)\include" /I "$(MAXSDK_14)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_15)\include" /I "$(MAXSDK_15)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_UNICODE" /D "UNICODE" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_9)\include" /I "$(MAXSDK_9)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\IPhysique\PublishedInterface.cpp">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_11)\include" /I"$(MAXSDK_11)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug11_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_12)\include" /I"$(MAXSDK_12)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug12_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_14)\include" /I"$(MAXSDK_14)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug14_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_15)\include" /I"$(MAXSDK_15)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug15_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /Od /I"$(MAXSDK_9)\include" /I"$(MAXSDK_9)\include\cs" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /Gm /EHsc /RTC1 /MDd /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP  &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug9_x64|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_11)\include" /I "$(MAXSDK_11)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release11_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_12)\include" /I "$(MAXSDK_12)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release12_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_14)\include" /I "$(MAXSDK_14)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release14_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_15)\include" /I "$(MAXSDK_15)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_UNICODE" /D "UNICODE" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release15_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'">call vcvarsx86_amd64.bat
+echo %(FullPath) /I "$(MAXSDK_9)\include" /I "$(MAXSDK_9)\include\cs" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IPHYSIQUE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MD /Zc:forScope- /Fo"$(IntDir)\" /Fd"$(IntDir)\vc90.pdb" /W3 /c /Zi /TP &gt; "$(IntDir)\clopt.tmp"
+cl.exe %40"$(IntDir)\clopt.tmp" /nologo /errorReport:prompt
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release9_x64|Win32'">$(IntDir)\%(Filename).obj;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\IPhysique\PublishedInterface.h" />
+    <ClInclude Include="..\..\src\IPhysique\StdHeaders.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\IPhysique\PhyExport.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

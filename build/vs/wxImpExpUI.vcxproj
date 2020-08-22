@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|x64">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|x64">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28B2FD82-600A-4D2D-977C-F5C0CD00DA4C}</ProjectGuid>
+    <RootNamespace>wxImpExpUI</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheet1.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30323.82</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <OutDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(KRXIMPEXP_INTERMEDIATE)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(WX)\include;$(WX)\lib\vc_lib\mswud;$(KRXIMPEXP)\src\metacpp;$(KRXIMPEXP)\src\meta;$(KRXIMPEXP)\src\tstl;$(KRXIMPEXP)\src\gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(KRXIMPEXP)\src\gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;rpcrt4.lib;wxmsw31ud_core.lib;wxbase31ud.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxmsw31ud_adv.lib;wxmsw31ud_aui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)wxImpExpUI.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(WX)\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_wxImpExpUI $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(WX)\include;$(WX)\lib\vc_lib\mswud;$(KRXIMPEXP)\src\metacpp;$(KRXIMPEXP)\src\meta;$(KRXIMPEXP)\src\tstl;$(KRXIMPEXP)\src\gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;__WXMSW__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(KRXIMPEXP)\src\gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;rpcrt4.lib;wxmsw31ud_core.lib;wxbase31ud.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxmsw31ud_adv.lib;wxmsw31ud_aui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)wxImpExpUI.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(WX)\lib\vc_lib;__WXMSW__;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_wxImpExpUI $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(WX)\include;$(WX)\lib\vc_lib\mswu;$(KRXIMPEXP)\src\metacpp;$(KRXIMPEXP)\src\meta;$(KRXIMPEXP)\src\tstl;$(KRXIMPEXP)\src\gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;__WXMSW__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(KRXIMPEXP)\src\gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;rpcrt4.lib;wxmsw31u_core.lib;wxbase31u.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxmsw31u_adv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)wxImpExpUI.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(WX)\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_wxImpExpUI $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(WX)\include;$(WX)\lib\vc_lib\mswu;$(KRXIMPEXP)\src\metacpp;$(KRXIMPEXP)\src\meta;$(KRXIMPEXP)\src\tstl;$(KRXIMPEXP)\src\gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;__WXMSW__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(KRXIMPEXP)\src\gfx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;rpcrt4.lib;wxmsw31u_core.lib;wxbase31u.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxmsw31u_adv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)wxImpExpUI.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(WX)\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <PostBuildEvent>
+      <Command>..\batch\pbe\PBE_wxImpExpUI $(OutDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\wxImpExpUI\3DSExporterDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\3DSImporterDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\AboutDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\ASCExporterDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\ASCImporterDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\CheckNotebook.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\CheckTreeCtrl.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\FB_ImpExpUI.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\ImpExpHelpMenu.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\ImpExpUIApp.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\ImpExpUITools.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\MatRenParamsDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\MatRenTools.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\MeshImporterDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\MeshInfoDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\OptionsDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\SpaceTransformExpDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\SpaceTransformImpDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\SpaceTransformTools.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\StdHeaders.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxImpExpUI\TimeTransformExpDlg.cpp" />
+    <ClCompile Include="..\..\src\wxImpExpUI\TimeTransformImpDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\wxImpExpUI\ImpExpUIApp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\MetaCpp\Meta.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Array.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Bit.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Class.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_ControlFlow.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Exception.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_File.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Function.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_MsgBox.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Numeric.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_String.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_System.h" />
+    <ClInclude Include="..\..\src\MetaCpp\MetaCpp_Var.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\3DSExporterDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\3DSImporterDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\AboutDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\ASCExporterDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\ASCImporterDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\CheckNotebook.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\CheckTreeCtrl.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\FB_ImpExpUI.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\ImpExpHelpMenu.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\ImpExpUIApp.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\ImpExpUITools.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\MatRenParamsDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\MatRenTools.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\MeshImporterDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\MeshInfoDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\OptionsDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\SpaceTransformExpDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\SpaceTransformImpDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\SpaceTransformTools.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\StdHeaders.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\TimeTransformExpDlg.h" />
+    <ClInclude Include="..\..\src\wxImpExpUI\TimeTransformImpDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\Meta\3dsExporterDlgInput.meta" />
+    <None Include="..\..\src\Meta\3dsExporterDlgOutput.meta" />
+    <None Include="..\..\src\Meta\3dsImporterDefs.meta" />
+    <None Include="..\..\src\Meta\3dsImporterDlgInput.meta" />
+    <None Include="..\..\src\Meta\3dsImporterDlgOutput.meta" />
+    <None Include="..\..\src\Meta\AscExporterDlgInput.meta" />
+    <None Include="..\..\src\Meta\AscExporterDlgOutput.meta" />
+    <None Include="..\..\src\Meta\AscImporterDefs.meta" />
+    <None Include="..\..\src\Meta\AscImporterDlgInput.meta" />
+    <None Include="..\..\src\Meta\AscImporterDlgOutput.meta" />
+    <None Include="..\..\src\Meta\File.meta" />
+    <None Include="..\..\src\Meta\FormatMsg.meta" />
+    <None Include="..\..\src\Meta\MeshInfoDlgInput.meta" />
+    <None Include="..\..\src\Meta\ModelHierarchy.meta" />
+    <None Include="..\..\src\Meta\ObjectStats.meta" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

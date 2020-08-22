@@ -1,0 +1,11 @@
+///////////////////////////////////////////////////////////////////////////////
+// Name:        stdafx.cpp
+// Purpose:     source file to use precompiled header file in MSVC
+// Author:      Vitaly Baranov
+// Created:     January 14, 2009
+// Modified by:  
+// Licence:     GNU General Public License
+///////////////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+
